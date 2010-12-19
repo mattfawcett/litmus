@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
     "lib/litmus/result.rb",
     "lib/litmus/test.rb",
     "lib/litmus/test_version.rb",
+    "litmus.gemspec",
     "spec/email_test_spec.rb",
     "spec/fixtures/all_tests.xml",
     "spec/fixtures/create_email_test.xml",
