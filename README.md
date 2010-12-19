@@ -18,6 +18,10 @@ Currently Implmented
 * Litmus::Result.list(test_id, test_version_id)
 * Litmus::Result.show(test_id, test_version_id, result_id)
 
+Install
+-------
+`gem install litmus`
+
 
 Example Usage
 -------------
