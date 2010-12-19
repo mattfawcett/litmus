@@ -1,7 +1,7 @@
 Litmus
 ======
 
-A simple wrapper around the Litmus *customer* API using httparty. This does not use the reseller API and should not be used to reset Litmus services.
+A simple wrapper around the Litmus *customer* API using httparty. This does not use the reseller API and should not be used to reset Litmus services. See the [API documentation](http://docs.litmus.com/w/page/18056603/Customer-API-documentation) for details
 
 Currently Implmented
 --------------------
