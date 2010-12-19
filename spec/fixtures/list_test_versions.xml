@@ -1,0 +1,744 @@
+<test_set_versions type="array"> 
+	<test_set_version> 
+		<version type="integer">1</version> 
+		<url_or_guid>236e723@emailtests.com</url_or_guid> 
+		<received>true</received> 
+		<source_url>s3.amazonaws.com/sitevista/a679e22f-9c-4834-946d-3552d30fdfa1</source_url> 
+		<inline_css /> 
+		<results type="array"> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:44:51Z</finished_at> 
+				<id type="integer">33524970</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ol2003</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">165</average_time_to_process> 
+					<business>true</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>true</supports_content_blocking> 
+					<desktop_client>true</desktop_client> 
+					<status>0</status> 
+					<platform_name>Windows</platform_name> 
+					<platform_long_name>Microsoft Windows</platform_long_name> 
+					<application_code>ol2003</application_code> 
+					<application_long_name>Outlook 2003</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/537b3-3340-4bdd-b1ab-c932c8e70099.fullpageoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/312291-c0df-4ca2-afe3-11c3d819bd2b.fullpageoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/9b4493ec-c69a-4e98-e8-a68e3faee7d3.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/62b8cd-3676-4867-bb1f-5c604410fb52.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/20a51799-b42b-47c4-b4cf-946b1bd551.windowoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/ed84f6d2-c525-4257-a08f-217c3c3738.windowoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/fa89aa46-77bd-465d-a0a0-e7a0ba7cb8.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/62d604f6-84ea-4cd1-85e5-050648b5f4.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:45:10Z</finished_at> 
+				<id type="integer">33524972</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ol2007</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">79</average_time_to_process> 
+					<business>true</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>true</supports_content_blocking> 
+					<desktop_client>true</desktop_client> 
+					<status>0</status> 
+					<platform_name>Windows</platform_name> 
+					<platform_long_name>Microsoft Windows</platform_long_name> 
+					<application_code>ol2007</application_code> 
+					<application_long_name>Outlook 2007</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/56e42870-3ce0-42df-ac5e-4376d2c9afc.fullpageoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/c83991b2-bec6-4724-ad66-1c2ad10a65.fullpageoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/0aba56cf-afb5-4452-a2e1-b20f18e61f.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/8c9cbe1e-ffc9-437f-9c50-b8f5253644.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/fb2f32bd-259f-44e4-8552-b8292874ff.windowoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/0e1f5a6a-3d9b-4400-85b6-32eeb93886.windowoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/cad7b574-3fb2-45-a350-5abd8908cede.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/b1adb2b1-e379-4604-99-78909bed42f4.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:46:00Z</finished_at> 
+				<id type="integer">33524974</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>iphone3</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">116</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>false</supports_content_blocking> 
+					<desktop_client>false</desktop_client> 
+					<status>0</status> 
+					<platform_name>Mobile devices</platform_name> 
+					<platform_long_name>Cell phones and other mobile devices</platform_long_name> 
+					<application_code>iphone3</application_code> 
+					<application_long_name>iPhone</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/C9E6ACE0-6C7D-094-AAD6-18CC446C336D.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/ABC103-7756-47F0-9EE8-A69A69B1312B.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:45:18Z</finished_at> 
+				<id type="integer">33524976</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>notes8</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">141</average_time_to_process> 
+					<business>true</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>false</supports_content_blocking> 
+					<desktop_client>true</desktop_client> 
+					<status>0</status> 
+					<platform_name>Windows</platform_name> 
+					<platform_long_name>Microsoft Windows</platform_long_name> 
+					<application_code>notes8</application_code> 
+					<application_long_name>Lotus Notes 8</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/bcd5a9f1-ce76-4ebd-8777-50f10cded3.fullpage.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/f94ad358-cc15-4b8c-8a55-5921ea12e.fullpagethumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/dbb14719-e828-4060-a43f-ad05370a12.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/9132ac19-b912-428a-a38d-d4af635b76.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:53:36Z</finished_at> 
+				<id type="integer">33524978</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>appmail4</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">311</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>false</supports_content_blocking> 
+					<desktop_client>true</desktop_client> 
+					<status>0</status> 
+					<platform_name>Mac OS</platform_name> 
+					<platform_long_name>Mac OS X</platform_long_name> 
+					<application_code>appmail4</application_code> 
+					<application_long_name>Apple Mail 4</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/4182321C-6A2F-4118-8DF9-46F9320DE7.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/EFFAEA18-C9E2-41E7-9E1E-1A63F5CE0A.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/2C79CF4F-3213-4B85-A0AE-9EC96DA76A.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/1457E05B-148E-4D40-8A58-7DC72E2AB3.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:44:54Z</finished_at> 
+				<id type="integer">33524980</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ffgmailnew</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">97</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>true</supports_content_blocking> 
+					<desktop_client>false</desktop_client> 
+					<status>0</status> 
+					<platform_name>Web-based</platform_name> 
+					<platform_long_name>Web-based</platform_long_name> 
+					<application_code>ffgmailnew</application_code> 
+					<application_long_name>Gmail (Firefox)</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/520efa91-a28e-4de1-931b-06a4e45a1f.fullpageoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/861ca632-8188-48e3-afa5-0fb8227e7f.fullpageoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/7b07135c-a7bc-47f1-abcd-9a2254b1c1.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/6183af73-e84a-403f-a5ff-e7d188bd05.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/b64400cd-3b09-4b77-b0f7-6fa709785b.windowoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/3497c6a4-29e8-4b8a-a394-6d8ce35cb0.windowoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/b113c077-24cd-455b-b8e2-58394dbb36.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/f64b01c8-f2dc-4819-b52f-e3a1cbe360.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:45:57Z</finished_at> 
+				<id type="integer">33524982</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>appmail3</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">163</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>false</supports_content_blocking> 
+					<desktop_client>true</desktop_client> 
+					<status>0</status> 
+					<platform_name>Mac OS</platform_name> 
+					<platform_long_name>Mac OS X</platform_long_name> 
+					<application_code>appmail3</application_code> 
+					<application_long_name>Apple Mail 3</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/0082A7B6-0EE4-4725-B628-67654DA7F0.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/039D48D6-1117-456C-8A00-BB98C19A33.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/A3F35808-1809-4FA9-B39D-5058240AAC.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/6EE6E7B6-0921-40CF-BA3C-DB768D232F.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:45:13Z</finished_at> 
+				<id type="integer">33524984</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ffhotmail</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">503</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>false</supports_content_blocking> 
+					<desktop_client>false</desktop_client> 
+					<status>0</status> 
+					<platform_name>Web-based</platform_name> 
+					<platform_long_name>Web-based</platform_long_name> 
+					<application_code>ffhotmail</application_code> 
+					<application_long_name>Hotmail (Firefox)</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/6b096943-7696-4acc-ae69-d97ac9f38b.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/b335d83b-6464-454e-a68d-fc98ea0ca7.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/6b096943-7696-4acc-ae69-d97e5ac9fb.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/b335d83b-6464-454e-a68d-fc99ea0ca7.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/ec149cfe-90cc-49b3-a109-f8c89ccc2f.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/379eb09e-5aee-475a-a876-6921cc8ea7.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/ec149cfe-90cc-49b3-a109-f8c89ccc2f.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/379eb09e-5aee-475a-a876-6321cc8ea7.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:45:10Z</finished_at> 
+				<id type="integer">33524986</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>hotmail</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">201</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>false</supports_content_blocking> 
+					<desktop_client>false</desktop_client> 
+					<status>0</status> 
+					<platform_name>Web-based</platform_name> 
+					<platform_long_name>Web-based</platform_long_name> 
+					<application_code>hotmail</application_code> 
+					<application_long_name>Hotmail (Explorer)</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/afa4369f-8bd3-432e-98a4-1342c7b718.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/afb840ce-04a4-40d8-a6e2-40cbaee4ba.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/afa4369f-8bd3-432e-98a4-1342c7b718.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/afb840ce-04a4-40d8-a6e2-40cbaee4ba.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/40124d9c-940c-4b2d-9d63-65d3551768.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/af57b06a-985c-45d2-a5fc-d6b1f2e222.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/40124d9c-940c-4b2d-9d63-65d3551768.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/af57b06a-985c-45d2-a5fc-d6b1f2e222.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:45:22Z</finished_at> 
+				<id type="integer">33524988</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>yahoo</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">117</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>true</supports_content_blocking> 
+					<desktop_client>false</desktop_client> 
+					<status>0</status> 
+					<platform_name>Web-based</platform_name> 
+					<platform_long_name>Web-based</platform_long_name> 
+					<application_code>yahoo</application_code> 
+					<application_long_name>Yahoo! Mail (Explorer)</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/6e97e13f-35ad-4811-9039-912f1a5e86.fullpageoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/0658077b-a1fc-47c4-8b14-01643b2754.fullpageoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/f8553f7f-3ec0-470c-904d-62228330a3.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/89e0bda9-39bc-4aa4-a03f-ee44d3b22a.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/1e79b398-4d0b-4ab9-bf77-7ab1d57b2f.windowoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/2525b150-79d5-4af0-ab54-1c04fbb3d5.windowoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/d5beb3e7-54a3-4fef-b966-d288f20e50.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/0634997a-ded3-4aeb-a5a3-3fcdc16e78.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:45:18Z</finished_at> 
+				<id type="integer">33524990</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ffaolonline</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">222</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>true</supports_content_blocking> 
+					<desktop_client>false</desktop_client> 
+					<status>0</status> 
+					<platform_name>Web-based</platform_name> 
+					<platform_long_name>Web-based</platform_long_name> 
+					<application_code>ffaolonline</application_code> 
+					<application_long_name>AOL Mail (Firefox)</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/e073e587-9ecb-4db4-b08a-add9fbd598.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/9d6c10bd-9a65-40f3-9ce5-e7a7afc073.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/e073e587-9ecb-4db4-b08a-add9ff4598.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/9d6c10bd-9a65-40f3-9ce5-00a7afc073.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/70d0329e-d734-481a-95ce-d232d453b4.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/5c3d2b30-4eff-4e00-86ba-2f410cead8.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/70d0329e-d734-481a-95ce-d232d4b3b4.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/5c3d2b30-4eff-4e00-86ba-2f410cead8.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:44:59Z</finished_at> 
+				<id type="integer">33524994</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>gmailnew</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">86</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>true</supports_content_blocking> 
+					<desktop_client>false</desktop_client> 
+					<status>0</status> 
+					<platform_name>Web-based</platform_name> 
+					<platform_long_name>Web-based</platform_long_name> 
+					<application_code>gmailnew</application_code> 
+					<application_long_name>Gmail (Explorer)</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/89cb71ac-51f9-4d2d-8261-6e0dd3acfd.fullpageoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/80375468-bc09-410e-b474-ca173c0713.fullpageoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/2e4f1fc6-ce10-4a4e-881f-e2204f3f13.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/329be260-1b80-4617-995d-cc6c4e380b.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/f3be5376-5690-4145-85b9-b676b3fb6a.windowoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/c98b7217-24ee-4b8f-8185-04391dc212.windowoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/8a2b44b3-efab-4961-938e-f6c189213a.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/17d161a9-04b6-4cd9-9b3d-94715ba4a9.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:44:46Z</finished_at> 
+				<id type="integer">33524996</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ol2000</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">66</average_time_to_process> 
+					<business>true</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>false</supports_content_blocking> 
+					<desktop_client>true</desktop_client> 
+					<status>0</status> 
+					<platform_name>Windows</platform_name> 
+					<platform_long_name>Microsoft Windows</platform_long_name> 
+					<application_code>ol2000</application_code> 
+					<application_long_name>Outlook 2000</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/e1ca48db-e446-4fca-a2da-f034681781.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/947236a9-ac21-4081-9dc6-9116a0aa09.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/f15139f6-9942-4e0a-902b-5bc6db3d9b.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/710cf6d5-c093-423e-afa4-470fe1ad79.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:45:18Z</finished_at> 
+				<id type="integer">33524998</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ffyahoo</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">120</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>true</supports_content_blocking> 
+					<desktop_client>false</desktop_client> 
+					<status>0</status> 
+					<platform_name>Web-based</platform_name> 
+					<platform_long_name>Web-based</platform_long_name> 
+					<application_code>ffyahoo</application_code> 
+					<application_long_name>Yahoo! Mail (Firefox)</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/adcbf739-57f2-4989-af03-4ec5343053.fullpageoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/16525511-643f-44d7-bd45-0f51be7284.fullpageoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/0d00697c-70c9-4227-a848-a5cc197d85.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/cddf6b12-89a6-489e-9915-7e5220b09a.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/1e79578e-d19e-4a4e-b03e-756bad2504.windowoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/3bb4fe68-99ac-4c3e-bdb5-140565909b.windowoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/44ccadb1-8dfc-4058-8c19-97896c64f0.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/818acad2-fd4f-4d60-b2ca-7f5bf1d24c.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:44:43Z</finished_at> 
+				<id type="integer">33525000</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ol2002</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">63</average_time_to_process> 
+					<business>true</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>false</supports_content_blocking> 
+					<desktop_client>true</desktop_client> 
+					<status>0</status> 
+					<platform_name>Windows</platform_name> 
+					<platform_long_name>Microsoft Windows</platform_long_name> 
+					<application_code>ol2002</application_code> 
+					<application_long_name>Outlook 2002/XP</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/9e76cca0-64c8-4853-bf2f-d699ea2957.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/909407cb-633c-494f-8912-2f7057b048.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/9247b007-2149-43a6-af66-6de00bc7e6.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/5c7a7b18-b65b-44bb-ad4b-460dfc15fc.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state nil="true" /> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:45:55Z</finished_at> 
+				<id type="integer">33525002</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ipad3</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">137</average_time_to_process> 
+					<business>false</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>false</supports_content_blocking> 
+					<desktop_client>false</desktop_client> 
+					<status>0</status> 
+					<platform_name>Mobile devices</platform_name> 
+					<platform_long_name>Cell phones and other mobile devices</platform_long_name> 
+					<application_code>ipad3</application_code> 
+					<application_long_name>iPad</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/A002CC06-E436-4CFC-8142-1A38916734.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/F31C2266-65C5-441F-82B6-8E939EDE3C.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+					</result_image> 
+				</result_images> 
+			</result> 
+			<result> 
+				<check_state>ticked</check_state> 
+				<error_at type="datetime" nil="true" /> 
+				<finished_at type="datetime">2010-12-18T22:51:24Z</finished_at> 
+				<id type="integer">33524992</id> 
+				<started_at type="datetime">2010-12-18T22:44:13Z</started_at> 
+				<test_code>ol2010</test_code> 
+				<state>complete</state> 
+				<result_type>email</result_type> 
+				<rendered_html_url /> 
+				<testing_application> 
+					<average_time_to_process type="integer">167</average_time_to_process> 
+					<business>true</business> 
+					<result_type>email</result_type> 
+					<supports_content_blocking>true</supports_content_blocking> 
+					<desktop_client>true</desktop_client> 
+					<status>0</status> 
+					<platform_name>Windows</platform_name> 
+					<platform_long_name>Microsoft Windows</platform_long_name> 
+					<application_code>ol2010</application_code> 
+					<application_long_name>Outlook 2010</application_long_name> 
+				</testing_application> 
+				<result_images type="array"> 
+					<result_image> 
+						<image_type>full_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/77888c43-0e4a-4642-b428-064c21e7d1.fullpageoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/841e0e19-4e97-4851-8c78-c8bf697163.fullpageoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>full_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/0805f355-e943-468b-99e6-b11eb51076.fullpageon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/a8297ac1-66ae-4ea1-9a24-4ecdbfbdef.fullpageonthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_off</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/55848e0f-c671-464f-acfa-0664fd3f38.windowoff.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/c1501dc5-e67d-4ffa-b3b2-bebac253d4.windowoffthumb.png</thumbnail_image> 
+					</result_image> 
+					<result_image> 
+						<image_type>window_on</image_type> 
+						<full_image>s3.amazonaws.com/resultcaptures/197eff39-6476-4866-ad7d-ce24cdc4a8.windowon.png</full_image> 
+						<thumbnail_image>s3.amazonaws.com/resultcaptures/0d99794e-9aff-48f8-8c6d-07be38470b.windowonthumb.png</thumbnail_image> 
+					</result_image> 
+				</result_images> 
+			</result> 
+		</results> 
+	</test_set_version> 
+</test_set_versions>

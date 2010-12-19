@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test_set>
+  <created_at type="datetime">2010-12-19T16:36:59Z</created_at>
+  <delta type="boolean">true</delta>
+  <id type="integer">1716450</id>
+  <updated_at type="datetime">2010-12-19T16:37:01Z</updated_at>
+  <name>No subject</name>
+  <service>email</service>
+  <state>waiting</state>
+  <public_sharing>false</public_sharing>
+  <test_set_versions type="array">
+    <test_set_version>
+      <version type="integer">1</version>
+      <url_or_guid>62e1101@emailtests.com</url_or_guid>
+      <received>false</received>
+      <source_url>s3.amazonaws.com/sitevista/missing_source</source_url>
+      <inline_css></inline_css>
+      <results type="array">
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537708</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>hotmail</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">201</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>hotmail</application_code>
+            <application_long_name>Hotmail (Explorer)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537710</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>yahoo</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">117</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>yahoo</application_code>
+            <application_long_name>Yahoo! Mail (Explorer)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537712</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ol2000</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">66</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>true</desktop_client>
+            <status>0</status>
+            <platform_name>Windows</platform_name>
+            <platform_long_name>Microsoft Windows</platform_long_name>
+            <application_code>ol2000</application_code>
+            <application_long_name>Outlook 2000</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537714</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ol2002</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">63</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>true</desktop_client>
+            <status>0</status>
+            <platform_name>Windows</platform_name>
+            <platform_long_name>Microsoft Windows</platform_long_name>
+            <application_code>ol2002</application_code>
+            <application_long_name>Outlook 2002/XP</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537716</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ol2003</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">165</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>true</desktop_client>
+            <status>0</status>
+            <platform_name>Windows</platform_name>
+            <platform_long_name>Microsoft Windows</platform_long_name>
+            <application_code>ol2003</application_code>
+            <application_long_name>Outlook 2003</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537718</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ol2007</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">79</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>true</desktop_client>
+            <status>0</status>
+            <platform_name>Windows</platform_name>
+            <platform_long_name>Microsoft Windows</platform_long_name>
+            <application_code>ol2007</application_code>
+            <application_long_name>Outlook 2007</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537720</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>notes8</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">141</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>true</desktop_client>
+            <status>0</status>
+            <platform_name>Windows</platform_name>
+            <platform_long_name>Microsoft Windows</platform_long_name>
+            <application_code>notes8</application_code>
+            <application_long_name>Lotus Notes 8</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537722</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>appmail3</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">163</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>true</desktop_client>
+            <status>0</status>
+            <platform_name>Mac OS</platform_name>
+            <platform_long_name>Mac OS X</platform_long_name>
+            <application_code>appmail3</application_code>
+            <application_long_name>Apple Mail 3</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537724</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>gmailnew</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">86</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>gmailnew</application_code>
+            <application_long_name>Gmail (Explorer)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537726</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>iphone3</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">116</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Mobile devices</platform_name>
+            <platform_long_name>Cell phones and other mobile devices</platform_long_name>
+            <application_code>iphone3</application_code>
+            <application_long_name>iPhone</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537728</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>appmail4</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">311</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>true</desktop_client>
+            <status>0</status>
+            <platform_name>Mac OS</platform_name>
+            <platform_long_name>Mac OS X</platform_long_name>
+            <application_code>appmail4</application_code>
+            <application_long_name>Apple Mail 4</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537730</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ol2010</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">167</average_time_to_process>
+            <business>true</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>true</desktop_client>
+            <status>0</status>
+            <platform_name>Windows</platform_name>
+            <platform_long_name>Microsoft Windows</platform_long_name>
+            <application_code>ol2010</application_code>
+            <application_long_name>Outlook 2010</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537732</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ffgmailnew</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">97</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>ffgmailnew</application_code>
+            <application_long_name>Gmail (Firefox)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537734</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ffhotmail</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">503</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>ffhotmail</application_code>
+            <application_long_name>Hotmail (Firefox)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537736</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ffaolonline</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">222</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>ffaolonline</application_code>
+            <application_long_name>AOL Mail (Firefox)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537738</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ffyahoo</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">120</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>true</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Web-based</platform_name>
+            <platform_long_name>Web-based</platform_long_name>
+            <application_code>ffyahoo</application_code>
+            <application_long_name>Yahoo! Mail (Firefox)</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+        <result>
+          <check_state nil="true"></check_state>
+          <error_at type="datetime" nil="true"></error_at>
+          <finished_at type="datetime" nil="true"></finished_at>
+          <id type="integer">33537740</id>
+          <started_at type="datetime" nil="true"></started_at>
+          <test_code>ipad3</test_code>
+          <state>pending</state>
+          <result_type>email</result_type>
+          <rendered_html_url></rendered_html_url>
+          <testing_application>
+            <average_time_to_process type="integer">137</average_time_to_process>
+            <business>false</business>
+            <result_type>email</result_type>
+            <supports_content_blocking>false</supports_content_blocking>
+            <desktop_client>false</desktop_client>
+            <status>0</status>
+            <platform_name>Mobile devices</platform_name>
+            <platform_long_name>Cell phones and other mobile devices</platform_long_name>
+            <application_code>ipad3</application_code>
+            <application_long_name>iPad</application_long_name>
+          </testing_application>
+          <result_images type="array">
+            <result_image>
+              <image_type>full_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>full_on</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_off</image_type>
+            </result_image>
+            <result_image>
+              <image_type>window_on</image_type>
+            </result_image>
+          </result_images>
+        </result>
+      </results>
+    </test_set_version>
+  </test_set_versions>
+  <url_or_guid>62e1101</url_or_guid>
+</test_set>

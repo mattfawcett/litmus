@@ -1,0 +1,24 @@
+<test_sets type="array"> 
+	<test_set> 
+		<created_at type="datetime">2010-12-18T22:43:23Z</created_at> 
+		<delta type="boolean">true</delta> 
+		<id type="integer">1715760</id> 
+		<updated_at type="datetime">2010-12-18T22:43:25Z</updated_at> 
+		<name>A really good email</name> 
+		<service>email</service> 
+		<state>complete</state> 
+		<public_sharing>false</public_sharing> 
+		<url_or_guid>236e723</url_or_guid> 
+	</test_set> 
+	<test_set> 
+		<created_at type="datetime">2010-12-18T22:40:47Z</created_at> 
+		<delta type="boolean">true</delta> 
+		<id type="integer">1715752</id> 
+		<updated_at type="datetime">2010-12-18T22:40:48Z</updated_at> 
+		<name>Home | Real Ale Hunter</name> 
+		<service>page</service> 
+		<state>complete</state> 
+		<public_sharing>false</public_sharing> 
+		<url_or_guid>http://www.realalehunter.co.uk</url_or_guid> 
+	</test_set> 
+</test_sets>

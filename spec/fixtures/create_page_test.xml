@@ -1,0 +1,286 @@
+<test_set> 
+	<created_at type="datetime">2010-12-19T16:34:49Z</created_at> 
+	<delta type="boolean">true</delta> 
+	<id type="integer">1716444</id> 
+	<updated_at type="datetime">2010-12-19T16:34:50Z</updated_at> 
+	<name>Google</name> 
+	<service>page</service> 
+	<state>complete</state> 
+	<public_sharing>false</public_sharing> 
+	<test_set_versions type="array"> 
+		<test_set_version> 
+			<version type="integer">1</version> 
+			<url_or_guid>http://google.com/</url_or_guid> 
+			<received>true</received> 
+			<validation> 
+				<html> 
+					<errors /> 
+					<warnings /> 
+				</html> 
+				<css> 
+					<errors /> 
+					<warnings /> 
+				</css> 
+			</validation> 
+			<results type="array"> 
+				<result> 
+					<check_state nil="true" /> 
+					<error_at type="datetime" nil="true" /> 
+					<finished_at type="datetime">2010-12-19T16:34:49Z</finished_at> 
+					<id type="integer">33537544</id> 
+					<started_at type="datetime" nil="true" /> 
+					<test_code>ie7</test_code> 
+					<state>complete</state> 
+					<result_type>page</result_type> 
+					<testing_application> 
+						<average_time_to_process type="integer">30</average_time_to_process> 
+						<result_type>page</result_type> 
+						<popular>true</popular> 
+						<status>0</status> 
+						<platform_name>Windows</platform_name> 
+						<platform_long_name>Microsoft Windows</platform_long_name> 
+						<application_code>ie7</application_code> 
+						<application_long_name>Explorer 7.0</application_long_name> 
+					</testing_application> 
+					<result_images type="array"> 
+						<result_image> 
+							<image_type>window</image_type> 
+							<full_image>client-2-1077013799.us-east-1.elb.amazonaws.com/b/?c=IE7&amp;i=33537544&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-2-1077013799.us-east-1.elb.amazonaws.com/b/?c=IE7&amp;i=33537544&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+						<result_image> 
+							<image_type>full</image_type> 
+							<full_image>client-2-1077013799.us-east-1.elb.amazonaws.com/b/?c=IE7&amp;i=33537544&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-2-1077013799.us-east-1.elb.amazonaws.com/b/?c=IE7&amp;i=33537544&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+					</result_images> 
+				</result> 
+				<result> 
+					<check_state nil="true" /> 
+					<error_at type="datetime" nil="true" /> 
+					<finished_at type="datetime">2010-12-19T16:34:49Z</finished_at> 
+					<id type="integer">33537546</id> 
+					<started_at type="datetime" nil="true" /> 
+					<test_code>ie6</test_code> 
+					<state>complete</state> 
+					<result_type>page</result_type> 
+					<testing_application> 
+						<average_time_to_process type="integer">30</average_time_to_process> 
+						<result_type>page</result_type> 
+						<popular>true</popular> 
+						<status>0</status> 
+						<platform_name>Windows</platform_name> 
+						<platform_long_name>Microsoft Windows</platform_long_name> 
+						<application_code>ie6</application_code> 
+						<application_long_name>Explorer 6.0</application_long_name> 
+					</testing_application> 
+					<result_images type="array"> 
+						<result_image> 
+							<image_type>window</image_type> 
+							<full_image>client-1-271999278.us-east-1.elb.amazonaws.com/b/?c=IE6&amp;i=33537546&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-1-271999278.us-east-1.elb.amazonaws.com/b/?c=IE6&amp;i=33537546&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+						<result_image> 
+							<image_type>full</image_type> 
+							<full_image>client-1-271999278.us-east-1.elb.amazonaws.com/b/?c=IE6&amp;i=33537546&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-1-271999278.us-east-1.elb.amazonaws.com/b/?c=IE6&amp;i=33537546&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+					</result_images> 
+				</result> 
+				<result> 
+					<check_state nil="true" /> 
+					<error_at type="datetime" nil="true" /> 
+					<finished_at type="datetime">2010-12-19T16:34:49Z</finished_at> 
+					<id type="integer">33537548</id> 
+					<started_at type="datetime" nil="true" /> 
+					<test_code>ff3w</test_code> 
+					<state>complete</state> 
+					<result_type>page</result_type> 
+					<testing_application> 
+						<average_time_to_process type="integer">337</average_time_to_process> 
+						<result_type>page</result_type> 
+						<popular>true</popular> 
+						<status>0</status> 
+						<platform_name>Windows</platform_name> 
+						<platform_long_name>Microsoft Windows</platform_long_name> 
+						<application_code>ff3w</application_code> 
+						<application_long_name>Firefox 3.0</application_long_name> 
+					</testing_application> 
+					<result_images type="array"> 
+						<result_image> 
+							<image_type>window</image_type> 
+							<full_image>client-1-271999278.us-east-1.elb.amazonaws.com/b/?c=FF3&amp;i=33537548&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-1-271999278.us-east-1.elb.amazonaws.com/b/?c=FF3&amp;i=33537548&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+						<result_image> 
+							<image_type>full</image_type> 
+							<full_image>client-1-271999278.us-east-1.elb.amazonaws.com/b/?c=FF3&amp;i=33537548&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-1-271999278.us-east-1.elb.amazonaws.com/b/?c=FF3&amp;i=33537548&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+					</result_images> 
+				</result> 
+				<result> 
+					<check_state nil="true" /> 
+					<error_at type="datetime" nil="true" /> 
+					<finished_at type="datetime">2010-12-19T16:34:49Z</finished_at> 
+					<id type="integer">33537550</id> 
+					<started_at type="datetime" nil="true" /> 
+					<test_code>ie8</test_code> 
+					<state>complete</state> 
+					<result_type>page</result_type> 
+					<testing_application> 
+						<average_time_to_process type="integer">30</average_time_to_process> 
+						<result_type>page</result_type> 
+						<popular>true</popular> 
+						<status>0</status> 
+						<platform_name>Windows</platform_name> 
+						<platform_long_name>Microsoft Windows</platform_long_name> 
+						<application_code>ie8</application_code> 
+						<application_long_name>Explorer 8.0</application_long_name> 
+					</testing_application> 
+					<result_images type="array"> 
+						<result_image> 
+							<image_type>window</image_type> 
+							<full_image>client-4-871184248.us-east-1.elb.amazonaws.com/b/?c=IE8&amp;i=33537550&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-4-871184248.us-east-1.elb.amazonaws.com/b/?c=IE8&amp;i=33537550&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+						<result_image> 
+							<image_type>full</image_type> 
+							<full_image>client-4-871184248.us-east-1.elb.amazonaws.com/b/?c=IE8&amp;i=33537550&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-4-871184248.us-east-1.elb.amazonaws.com/b/?c=IE8&amp;i=33537550&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+					</result_images> 
+				</result> 
+				<result> 
+					<check_state nil="true" /> 
+					<error_at type="datetime" nil="true" /> 
+					<finished_at type="datetime">2010-12-19T16:34:49Z</finished_at> 
+					<id type="integer">33537552</id> 
+					<started_at type="datetime" nil="true" /> 
+					<test_code>ff31w</test_code> 
+					<state>complete</state> 
+					<result_type>page</result_type> 
+					<testing_application> 
+						<average_time_to_process type="integer">270</average_time_to_process> 
+						<result_type>page</result_type> 
+						<popular>true</popular> 
+						<status>0</status> 
+						<platform_name>Windows</platform_name> 
+						<platform_long_name>Microsoft Windows</platform_long_name> 
+						<application_code>ff31w</application_code> 
+						<application_long_name>Firefox 3.5</application_long_name> 
+					</testing_application> 
+					<result_images type="array"> 
+						<result_image> 
+							<image_type>window</image_type> 
+							<full_image>client-3-2077254909.us-east-1.elb.amazonaws.com/b/?c=FF31&amp;i=33537552&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-3-2077254909.us-east-1.elb.amazonaws.com/b/?c=FF31&amp;i=33537552&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+						<result_image> 
+							<image_type>full</image_type> 
+							<full_image>client-3-2077254909.us-east-1.elb.amazonaws.com/b/?c=FF31&amp;i=33537552&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-3-2077254909.us-east-1.elb.amazonaws.com/b/?c=FF31&amp;i=33537552&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+					</result_images> 
+				</result> 
+				<result> 
+					<check_state nil="true" /> 
+					<error_at type="datetime" nil="true" /> 
+					<finished_at type="datetime">2010-12-19T16:34:49Z</finished_at> 
+					<id type="integer">33537554</id> 
+					<started_at type="datetime" nil="true" /> 
+					<test_code>saf4m</test_code> 
+					<state>complete</state> 
+					<result_type>page</result_type> 
+					<testing_application> 
+						<average_time_to_process type="integer">556</average_time_to_process> 
+						<result_type>page</result_type> 
+						<popular>true</popular> 
+						<status>0</status> 
+						<platform_name>Mac OS</platform_name> 
+						<platform_long_name>Mac OS X</platform_long_name> 
+						<application_code>saf4m</application_code> 
+						<application_long_name>Safari 5.0 OSX</application_long_name> 
+					</testing_application> 
+					<result_images type="array"> 
+						<result_image> 
+							<image_type>window</image_type> 
+							<full_image>osx.litmus.com/b/?c=SAF4M&amp;i=33537554&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>osx.litmus.com/b/?c=SAF4M&amp;i=33537554&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+						<result_image> 
+							<image_type>full</image_type> 
+							<full_image>osx.litmus.com/b/?c=SAF4M&amp;i=33537554&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>osx.litmus.com/b/?c=SAF4M&amp;i=33537554&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+					</result_images> 
+				</result> 
+				<result> 
+					<check_state nil="true" /> 
+					<error_at type="datetime" nil="true" /> 
+					<finished_at type="datetime">2010-12-19T16:34:50Z</finished_at> 
+					<id type="integer">33537556</id> 
+					<started_at type="datetime" nil="true" /> 
+					<test_code>chrome2w</test_code> 
+					<state>complete</state> 
+					<result_type>page</result_type> 
+					<testing_application> 
+						<average_time_to_process type="integer">334</average_time_to_process> 
+						<result_type>page</result_type> 
+						<popular>true</popular> 
+						<status>0</status> 
+						<platform_name>Windows</platform_name> 
+						<platform_long_name>Microsoft Windows</platform_long_name> 
+						<application_code>chrome2w</application_code> 
+						<application_long_name>Chrome 7.0</application_long_name> 
+					</testing_application> 
+					<result_images type="array"> 
+						<result_image> 
+							<image_type>window</image_type> 
+							<full_image>client-3-2077254909.us-east-1.elb.amazonaws.com/b/?c=CHROME2&amp;i=33537556&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-3-2077254909.us-east-1.elb.amazonaws.com/b/?c=CHROME2&amp;i=33537556&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+						<result_image> 
+							<image_type>full</image_type> 
+							<full_image>client-3-2077254909.us-east-1.elb.amazonaws.com/b/?c=CHROME2&amp;i=33537556&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-3-2077254909.us-east-1.elb.amazonaws.com/b/?c=CHROME2&amp;i=33537556&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+					</result_images> 
+				</result> 
+				<result> 
+					<check_state nil="true" /> 
+					<error_at type="datetime" nil="true" /> 
+					<finished_at type="datetime">2010-12-19T16:34:50Z</finished_at> 
+					<id type="integer">33537558</id> 
+					<started_at type="datetime" nil="true" /> 
+					<test_code>ff36</test_code> 
+					<state>complete</state> 
+					<result_type>page</result_type> 
+					<testing_application> 
+						<average_time_to_process type="integer">30</average_time_to_process> 
+						<result_type>page</result_type> 
+						<popular>true</popular> 
+						<status>0</status> 
+						<platform_name>Windows</platform_name> 
+						<platform_long_name>Microsoft Windows</platform_long_name> 
+						<application_code>ff36</application_code> 
+						<application_long_name>Firefox 3.6</application_long_name> 
+					</testing_application> 
+					<result_images type="array"> 
+						<result_image> 
+							<image_type>window</image_type> 
+							<full_image>client-4-871184248.us-east-1.elb.amazonaws.com/b/?c=FF36&amp;i=33537558&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-4-871184248.us-east-1.elb.amazonaws.com/b/?c=FF36&amp;i=33537558&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+						<result_image> 
+							<image_type>full</image_type> 
+							<full_image>client-4-871184248.us-east-1.elb.amazonaws.com/b/?c=FF36&amp;i=33537558&amp;t=0&amp;u=http%3A%2F%2Fgoogle.com%2F</full_image> 
+							<thumbnail_image>client-4-871184248.us-east-1.elb.amazonaws.com/b/?c=FF36&amp;i=33537558&amp;t=1&amp;u=http%3A%2F%2Fgoogle.com%2F</thumbnail_image> 
+						</result_image> 
+					</result_images> 
+				</result> 
+			</results> 
+		</test_set_version> 
+	</test_set_versions> 
+	<url_or_guid>http://google.com/</url_or_guid> 
+</test_set>
