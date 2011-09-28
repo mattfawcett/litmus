@@ -12,7 +12,8 @@ describe Litmus::PageTest do
 
   describe ".create" do
     it "should give me back a new page object" do
-      page_test = Litmus::PageTest.create("http://matthewfawcett.co.uk/")
+      Litmus::PageTest.create("http://matthewfawcett.co.uk/")
+      page_test = Litmus::PageTest.create("http://matthewfawcett.co.uk/", 'some name')
       page_test["id"].should == 1716444
     end
   end

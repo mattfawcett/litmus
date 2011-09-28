@@ -8,14 +8,13 @@ Currently Implmented
 * Litmus::EmailTest.list
 * Litmus::EmailTest.show(id)
 * Litmus::EmailTest.find_by_name(name)
-* Litmus::EmailTest.create
-* Litmus::EmailTest.create({:subject => '', :body => ''})
+* Litmus::EmailTest.create({:subject => '', :body => ''}, name = nil)
 * Litmus::EmailTest.rename(id, new_name)
 * Litmus::EmailTest.destroy(id)
 * Litmus::PageTest.list
 * Litmus::PageTest.show(id)
 * Litmus::PageTest.find_by_name(name)
-* Litmus::PageTest.create(url)
+* Litmus::PageTest.create(url, name = nil)
 * Litmus::PageTest.rename(id, new_name)
 * Litmus::PageTest.destroy(id)
 * Litmus::TestVersion.list(test_id)

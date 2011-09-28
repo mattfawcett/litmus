@@ -13,7 +13,8 @@ describe Litmus::EmailTest do
   describe ".create" do
     context 'without email source' do
       it "should give me back a new email object" do
-        email_test = Litmus::EmailTest.create
+        Litmus::EmailTest.create
+        email_test = Litmus::EmailTest.create({}, 'some name')
         email_test["test_set_versions"].first["version"].should == 1
         email_test["test_set_versions"].first["url_or_guid"].should =~ /@emailtests\.com/
         email_test["id"].should be_a(Integer)
@@ -25,7 +26,7 @@ describe Litmus::EmailTest do
         email_test = Litmus::EmailTest.create({
           :subject => 'subject',
           :body => 'body',
-        })
+        }, 'some name')
         email_test["test_set_versions"].first["version"].should == 1
         email_test["test_set_versions"].first["url_or_guid"].should =~ /@emailtests\.com/
         email_test["id"].should be_a(Integer)
