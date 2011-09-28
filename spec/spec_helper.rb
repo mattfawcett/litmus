@@ -7,7 +7,7 @@ require 'rspec/autorun'
 require 'fakeweb'
 FakeWeb.allow_net_connect = false
 
-Rspec.configure do |config|
+RSpec.configure do |config|
   FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests.xml', 
                        :body => File.join(File.dirname(__FILE__), 'fixtures', 'all_tests.xml'),
                        :content_type => "text/xml")
@@ -19,6 +19,9 @@ Rspec.configure do |config|
                        :content_type => "text/xml")
   FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1716450.xml',
                        :body => File.join(File.dirname(__FILE__), 'fixtures', 'show_test.xml'),
+                       :content_type => "text/xml")
+  FakeWeb.register_uri(:put, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1716450.xml',
+                       :body => File.join(File.dirname(__FILE__), 'fixtures', 'rename_test.xml'),
                        :content_type => "text/xml")
   FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1716450/versions/1.xml',
                        :body => File.join(File.dirname(__FILE__), 'fixtures', 'show_test_version.xml'),
