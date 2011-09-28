@@ -56,5 +56,9 @@ Example Usage
     # Now lets show the result for this test version
     image_url = Litmus::Result.show(test_id, version, 33539350)["result_images"].first["full_image"] #=> "s3.amazonaws.com/resultcaptures/2f21fc9c-08f6-4429-b53d-2e224189526b.fullpageon.png"
   
+    # Let's rename this test to something more intuitive
+    Litmus::Test.rename(test_id, 'My email test')
+
     system("open http://#{image_url}")
     # Looks good!
+
