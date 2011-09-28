@@ -18,4 +18,11 @@ describe Litmus::EmailTest do
       email_test["id"].should be_a(Integer)
     end
   end
+
+  describe ".find_by_name" do
+    it "should return only the test object with the correct name" do
+      really_good = Litmus::EmailTest.find_by_name('A really good email')
+      really_good["name"].should eql('A really good email')
+    end
+  end
 end

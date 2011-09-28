@@ -16,5 +16,9 @@ module Litmus
       end
       put("/tests/#{id}.xml", :body => builder.target!, :headers => {"Content-type" => "application/xml"})["test_set"]
     end
+
+    def self.find_by_name(name)
+      self.list.keep_if { |t| t['name'] == name }.first
+    end
   end
 end

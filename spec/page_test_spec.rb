@@ -16,4 +16,11 @@ describe Litmus::PageTest do
       page_test["id"].should == 1716444
     end
   end
+
+  describe ".find_by_name" do
+    it "should return only the test object with the correct name" do
+      home = Litmus::PageTest.find_by_name('Home | Real Ale Hunter')
+      home["name"].should eql("Home | Real Ale Hunter")
+    end
+  end
 end

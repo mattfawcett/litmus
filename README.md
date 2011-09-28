@@ -7,10 +7,12 @@ Currently Implmented
 --------------------
 * Litmus::EmailTest.list
 * Litmus::EmailTest.show(id)
+* Litmus::EmailTest.find_by_name(name)
 * Litmus::EmailTest.create
 * Litmus::EmailTest.rename(id, new_name)
 * Litmus::PageTest.list
 * Litmus::PageTest.show(id)
+* Litmus::PageTest.find_by_name(name)
 * Litmus::PageTest.create(url)
 * Litmus::PageTest.rename(id, new_name)
 * Litmus::TestVersion.list(test_id)
@@ -60,6 +62,9 @@ Example Usage
   
     # Let's rename this test to something more intuitive
     Litmus::Test.rename(test_id, 'My email test')
+
+    # We can later look up the test by this name...
+    Litmus::Test.find_by_name('My email test')
 
     system("open http://#{image_url}")
     # Looks good!
