@@ -7,10 +7,16 @@ Currently Implmented
 --------------------
 * Litmus::EmailTest.list
 * Litmus::EmailTest.show(id)
-* Litmus::EmailTest.create
+* Litmus::EmailTest.find_by_name(name)
+* Litmus::EmailTest.create({:subject => '', :body => ''}, name = nil)
+* Litmus::EmailTest.rename(id, new_name)
+* Litmus::EmailTest.destroy(id)
 * Litmus::PageTest.list
 * Litmus::PageTest.show(id)
-* Litmus::PageTest.create(url)
+* Litmus::PageTest.find_by_name(name)
+* Litmus::PageTest.create(url, name = nil)
+* Litmus::PageTest.rename(id, new_name)
+* Litmus::PageTest.destroy(id)
 * Litmus::TestVersion.list(test_id)
 * Litmus::TestVersion.show(test_id, test_version_id)
 * Litmus::TestVersion.poll(test_id, test_version_id)
@@ -40,6 +46,9 @@ Example Usage
   
     # Lets send them the email
     Pony.mail(:to => send_test_to, :from => 'mail@matthewfawcett.co.uk', :subject => 'hi', :body => 'Hello there, this is a test')
+
+    # Alternatively, we could have included the email when the test was created
+    alternative_test = Litmus::EmailTest.create({:subject => 'Hello', :body => '<b>Hello, <i>world</i></b>'})
   
     # Now they have it
     Litmus::TestVersion.show(test_id, version)["received"] #=> "true"
@@ -56,5 +65,13 @@ Example Usage
     # Now lets show the result for this test version
     image_url = Litmus::Result.show(test_id, version, 33539350)["result_images"].first["full_image"] #=> "s3.amazonaws.com/resultcaptures/2f21fc9c-08f6-4429-b53d-2e224189526b.fullpageon.png"
   
+    # Let's rename this test to something more intuitive
+    Litmus::Test.rename(test_id, 'My email test')
+
+    # We can later look up the test by this name...
+    Litmus::Test.find_by_name('My email test')
+
     system("open http://#{image_url}")
-    # Looks good!
+
+    # Looks good! Let's clean up...
+    Litmus::Test.destroy(test_id)

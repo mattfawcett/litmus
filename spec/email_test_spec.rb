@@ -11,11 +11,33 @@ describe Litmus::EmailTest do
   end
 
   describe ".create" do
-    it "should give me back a new email object" do
-      email_test = Litmus::EmailTest.create
-      email_test["test_set_versions"].first["version"].should == 1
-      email_test["test_set_versions"].first["url_or_guid"].should =~ /@emailtests\.com/
-      email_test["id"].should be_a(Integer)
+    context 'without email source' do
+      it "should give me back a new email object" do
+        Litmus::EmailTest.create
+        email_test = Litmus::EmailTest.create({}, 'some name')
+        email_test["test_set_versions"].first["version"].should == 1
+        email_test["test_set_versions"].first["url_or_guid"].should =~ /@emailtests\.com/
+        email_test["id"].should be_a(Integer)
+      end
+    end
+
+    context 'with email source' do
+      it "should give me back a new email object" do
+        email_test = Litmus::EmailTest.create({
+          :subject => 'subject',
+          :body => 'body',
+        }, 'some name')
+        email_test["test_set_versions"].first["version"].should == 1
+        email_test["test_set_versions"].first["url_or_guid"].should =~ /@emailtests\.com/
+        email_test["id"].should be_a(Integer)
+      end
+    end
+  end
+
+  describe ".find_by_name" do
+    it "should return only the test object with the correct name" do
+      really_good = Litmus::EmailTest.find_by_name('A really good email')
+      really_good["name"].should eql('A really good email')
     end
   end
 end

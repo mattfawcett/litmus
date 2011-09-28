@@ -12,8 +12,16 @@ describe Litmus::PageTest do
 
   describe ".create" do
     it "should give me back a new page object" do
-      page_test = Litmus::PageTest.create("http://matthewfawcett.co.uk/")
+      Litmus::PageTest.create("http://matthewfawcett.co.uk/")
+      page_test = Litmus::PageTest.create("http://matthewfawcett.co.uk/", 'some name')
       page_test["id"].should == 1716444
+    end
+  end
+
+  describe ".find_by_name" do
+    it "should return only the test object with the correct name" do
+      home = Litmus::PageTest.find_by_name('Home | Real Ale Hunter')
+      home["name"].should eql("Home | Real Ale Hunter")
     end
   end
 end
