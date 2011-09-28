@@ -9,6 +9,7 @@ Currently Implmented
 * Litmus::EmailTest.show(id)
 * Litmus::EmailTest.find_by_name(name)
 * Litmus::EmailTest.create
+* Litmus::EmailTest.create({:subject => '', :body => ''})
 * Litmus::EmailTest.rename(id, new_name)
 * Litmus::PageTest.list
 * Litmus::PageTest.show(id)
@@ -44,6 +45,9 @@ Example Usage
   
     # Lets send them the email
     Pony.mail(:to => send_test_to, :from => 'mail@matthewfawcett.co.uk', :subject => 'hi', :body => 'Hello there, this is a test')
+
+    # Alternatively, we could have included the email when the test was created
+    alternative_test = Litmus::EmailTest.create({:subject => 'Hello', :body => '<b>Hello, <i>world</i></b>'})
   
     # Now they have it
     Litmus::TestVersion.show(test_id, version)["received"] #=> "true"
