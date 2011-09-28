@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{litmus}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Matt Fawcett"]
-  s.date = %q{2010-12-19}
+  s.authors = [%q{Matt Fawcett}]
+  s.date = %q{2011-09-28}
   s.description = %q{A wrapper to the Litmus customer API}
   s.email = %q{mail@matthewfawcett.co.uk}
   s.extra_rdoc_files = [
@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".rspec",
     "LICENSE",
     "README.md",
     "Rakefile",
@@ -38,6 +39,7 @@ Gem::Specification.new do |s|
     "spec/fixtures/list_results.xml",
     "spec/fixtures/list_test_versions.xml",
     "spec/fixtures/poll_test_version.xml",
+    "spec/fixtures/rename_test.xml",
     "spec/fixtures/show_result.xml",
     "spec/fixtures/show_test.xml",
     "spec/fixtures/show_test_version.xml",
@@ -49,24 +51,14 @@ Gem::Specification.new do |s|
     "spec/test_version_spec.rb"
   ]
   s.homepage = %q{http://github.com/mattfawcett/litmus}
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.6}
+  s.require_paths = [%q{lib}]
+  s.rubygems_version = %q{1.8.6.1}
   s.summary = %q{A wrapper to the Litmus customer API}
-  s.test_files = [
-    "spec/email_test_spec.rb",
-    "spec/litmus_spec.rb",
-    "spec/page_test_spec.rb",
-    "spec/result_spec.rb",
-    "spec/spec_helper.rb",
-    "spec/test_spec.rb",
-    "spec/test_version_spec.rb"
-  ]
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_runtime_dependency(%q<httparty>, [">= 0.6.1"])
     else
