@@ -8,9 +8,11 @@ Currently Implmented
 * Litmus::EmailTest.list
 * Litmus::EmailTest.show(id)
 * Litmus::EmailTest.create
+* Litmus::EmailTest.rename(id, new_name)
 * Litmus::PageTest.list
 * Litmus::PageTest.show(id)
 * Litmus::PageTest.create(url)
+* Litmus::PageTest.rename(id, new_name)
 * Litmus::TestVersion.list(test_id)
 * Litmus::TestVersion.show(test_id, test_version_id)
 * Litmus::TestVersion.poll(test_id, test_version_id)
