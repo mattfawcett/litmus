@@ -11,11 +11,13 @@ Currently Implmented
 * Litmus::EmailTest.create
 * Litmus::EmailTest.create({:subject => '', :body => ''})
 * Litmus::EmailTest.rename(id, new_name)
+* Litmus::EmailTest.destroy(id)
 * Litmus::PageTest.list
 * Litmus::PageTest.show(id)
 * Litmus::PageTest.find_by_name(name)
 * Litmus::PageTest.create(url)
 * Litmus::PageTest.rename(id, new_name)
+* Litmus::PageTest.destroy(id)
 * Litmus::TestVersion.list(test_id)
 * Litmus::TestVersion.show(test_id, test_version_id)
 * Litmus::TestVersion.poll(test_id, test_version_id)
@@ -71,5 +73,6 @@ Example Usage
     Litmus::Test.find_by_name('My email test')
 
     system("open http://#{image_url}")
-    # Looks good!
 
+    # Looks good! Let's clean up...
+    Litmus::Test.destroy(test_id)

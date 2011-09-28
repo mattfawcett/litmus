@@ -14,4 +14,11 @@ describe Litmus::Test do
       test['name'].should == 'New name'
     end
   end
+
+  describe ".destroy" do
+    it "should send a delete request for the given id" do
+      response = Litmus::Test.destroy(1716450)
+      FakeWeb.last_request.method.should eql 'DELETE'
+    end
+  end
 end

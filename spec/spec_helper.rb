@@ -20,6 +20,8 @@ RSpec.configure do |config|
   FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1716450.xml',
                        :body => File.join(File.dirname(__FILE__), 'fixtures', 'show_test.xml'),
                        :content_type => "text/xml")
+  FakeWeb.register_uri(:delete, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1716450.xml',
+                       :status => [200, 'OK'], :content_type => "text/xml")
   FakeWeb.register_uri(:put, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1716450.xml',
                        :body => File.join(File.dirname(__FILE__), 'fixtures', 'rename_test.xml'),
                        :content_type => "text/xml")

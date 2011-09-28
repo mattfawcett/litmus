@@ -20,5 +20,9 @@ module Litmus
     def self.find_by_name(name)
       self.list.keep_if { |t| t['name'] == name }.first
     end
+
+    def self.destroy(id)
+      delete("/tests/#{id}.xml")
+    end
   end
 end
