@@ -1,9 +1,12 @@
 module Litmus
   class Base
     include HTTParty
-
-    def initialize(company, username, password)
-      self.class.base_uri "#{company}.litmus.com"
+    
+    debug_output $stderr
+    
+    def initialize(company, username, password, ssl = false)
+      protocol = ssl ? 'https' : 'http'
+      self.class.base_uri "#{protocol}://#{company}.litmus.com"
       self.class.basic_auth(username, password)
     end
   end
