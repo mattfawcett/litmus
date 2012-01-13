@@ -2,7 +2,7 @@ module Litmus
   class Base
     include HTTParty
     
-    debug_output $stderr
+    # debug_output $stderr
     
     def initialize(company, username, password, ssl = false)
       protocol = ssl ? 'https' : 'http'
