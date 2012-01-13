@@ -4,14 +4,15 @@ module Litmus
       super.reject{|test| test["service"] != 'email'}
     end
 
-    def self.create(email={}, name = nil)
+    def self.create(email={}, name = nil, sandbox = false)
       builder = Builder::XmlMarkup.new
       builder.instruct! :xml, :version=>"1.0"
       builder.test_set do |test_set|
         test_set.use_defaults true
         test_set.save_defaults false
         test_set.name name if name
-
+        test_set.sandbox true if sandbox
+        
         unless email.empty?
           test_set.email_source do |email_source|
             email_source.subject email[:subject]
