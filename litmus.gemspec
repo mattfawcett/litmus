@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{litmus}
-  s.version = "0.2.0"
+  s.name = "litmus"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{Matt Fawcett}]
-  s.date = %q{2011-09-29}
-  s.description = %q{A wrapper to the Litmus customer API}
-  s.email = %q{mail@matthewfawcett.co.uk}
+  s.authors = ["Matt Fawcett"]
+  s.date = "2012-01-14"
+  s.description = "A wrapper to the Litmus customer API"
+  s.email = "mail@matthewfawcett.co.uk"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.md"
@@ -50,10 +50,10 @@ Gem::Specification.new do |s|
     "spec/test_spec.rb",
     "spec/test_version_spec.rb"
   ]
-  s.homepage = %q{http://github.com/mattfawcett/litmus}
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.6}
-  s.summary = %q{A wrapper to the Litmus customer API}
+  s.homepage = "http://github.com/mattfawcett/litmus"
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.11"
+  s.summary = "A wrapper to the Litmus customer API"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
