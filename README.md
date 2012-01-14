@@ -33,7 +33,8 @@ Example Usage
 -------------
 
     # Setup the authentication details
-    Litmus::Base.new("your_company_subdomain", "username", "password")
+    use_ssl = true # You must turn on SSL here if you have SSL enabled in Litmus
+    Litmus::Base.new("your_company_subdomain", "username", "password", use_ssl)
   
     # Lets create an email test
     email_test = Litmus::EmailTest.create
