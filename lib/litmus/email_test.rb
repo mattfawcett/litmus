@@ -16,7 +16,9 @@ module Litmus
         unless email.empty?
           test_set.email_source do |email_source|
             email_source.subject email[:subject]
-            email_source.body email[:body]
+            email_source.body do |body|
+              body.cdata! email[:body]
+            end
           end
         end
       end
