@@ -2,19 +2,18 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'litmus'
 require 'rspec'
-require 'rspec/autorun'
 
 require 'fakeweb'
 FakeWeb.allow_net_connect = false
 
 RSpec.configure do |config|
-  FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests.xml', 
+  FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests.xml',
                        :body => File.join(File.dirname(__FILE__), 'fixtures', 'all_tests.xml'),
                        :content_type => "text/xml")
-  FakeWeb.register_uri(:post, 'http://matt:yourpassword@matthewfawcett.litmus.com/emails.xml', 
+  FakeWeb.register_uri(:post, 'http://matt:yourpassword@matthewfawcett.litmus.com/emails.xml',
                        :body => File.join(File.dirname(__FILE__), 'fixtures', 'create_email_test.xml'),
                        :content_type => "text/xml")
-  FakeWeb.register_uri(:post, 'http://matt:yourpassword@matthewfawcett.litmus.com/pages.xml', 
+  FakeWeb.register_uri(:post, 'http://matt:yourpassword@matthewfawcett.litmus.com/pages.xml',
                        :body => File.join(File.dirname(__FILE__), 'fixtures', 'create_page_test.xml'),
                        :content_type => "text/xml")
   FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1716450.xml',
@@ -43,6 +42,21 @@ RSpec.configure do |config|
   FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1715760/versions/1/results/33524970.xml',
                        :body => File.join(File.dirname(__FILE__), 'fixtures', 'show_result.xml'),
                        :content_type => "text/xml")
+  FakeWeb.register_uri(:post, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1715760/versions/1/results/33524970/retest.xml',
+                       :status => [201, 'Created'],:content_type => "text/xml")
+  FakeWeb.register_uri(:put, 'http://matt:yourpassword@matthewfawcett.litmus.com/tests/1715760/versions/1/results/33524970.xml',
+                       :body => File.join(File.dirname(__FILE__), 'fixtures', 'update_result.xml'),
+                       :content_type => "text/xml")
+  FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/reports.xml',
+                       :body => File.join(File.dirname(__FILE__), 'fixtures', 'list_reports.xml'),
+                       :content_type => "text/xml")
+  FakeWeb.register_uri(:get, 'http://matt:yourpassword@matthewfawcett.litmus.com/reports/24.xml',
+                       :body => File.join(File.dirname(__FILE__), 'fixtures', 'show_report.xml'),
+                       :content_type => "text/xml")
+  FakeWeb.register_uri(:post, 'http://matt:yourpassword@matthewfawcett.litmus.com/reports.xml',
+                       :body => File.join(File.dirname(__FILE__), 'fixtures', 'create_report.xml'),
+                       :content_type => "text/xml")
+
   config.before(:each) do
     Litmus::Base.new("matthewfawcett", "matt", "yourpassword")
   end

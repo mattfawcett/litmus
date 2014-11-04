@@ -1,0 +1,11 @@
+<report>
+  <bug_html>&lt;style&gt;@media print{#_t { background-image: url('https://a6.emltrk.com/E95EEB71?p');}} div.OutlookMessageHeader, table.moz-email-headers-table, blockquote #_t {background-image:url('https://a6.emltrk.com/E95EEB71?f')}&lt;/style&gt;&lt;div id=&quot;_t&quot;&gt;&lt;/div&gt;&lt;img src=&quot;https://a6.emltrk.com/E95EEB71&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; /&gt;</bug_html>
+  <created_at type="datetime">2010-06-16T12:24:09Z</created_at>
+  <id type="integer">24</id>
+  <name>Test - Yahoo test</name>
+  <public_sharing type="boolean">false</public_sharing>
+  <sharing_url></sharing_url>
+  <client_usage>http://export.litmus.com/mailclientusage.aspx/ABC123</client_usage>
+  <client_engagement>http://export.litmus.com/mailclientengagement.aspx/ABC456</client_engagement>
+  <activity>http://export.litmus.com/activity.aspx/ABC789</activity>
+</report>
