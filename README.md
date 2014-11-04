@@ -25,6 +25,9 @@ Currently Implmented
 * Litmus::Result.show(test_id, test_version_id, result_id)
 * Litmus::Result.retest(test_id, test_version_id, result_id)
 * Litmus::Result.update(test_id, test_version_id, result_id, new_state)
+* Litmus::Report.list
+* Litmus::Report.create(new_name)
+* Litmus::Report.show(id)
 
 Install
 -------
@@ -85,3 +88,14 @@ Example Usage
 
     # Looks good! Let's clean up...
     Litmus::Test.destroy(test_id)
+
+    # Next, let's try a report of email views
+    report = Litmus::Report.create("Newsletter")
+    report_id = report["id"]
+    html_to_include_in_email = report["bug_html"] # bug as in listening device, I assume
+
+    # Get the report later after the send
+    report = Litmus::Report.show(report_id)
+
+    # View a list of last 1000 reports
+    reports = Litmus::Report.list

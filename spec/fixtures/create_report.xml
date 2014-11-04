@@ -1,0 +1,6 @@
+<report>
+  <bug_html>&lt;style&gt;@media print{#_t { background-image: url('https://a6.emltrk.com/3CDC7925?p');}} div.OutlookMessageHeader, table.moz-email-headers-table, blockquote #_t {background-image:url('https://a6.emltrk.com/3CDC7925?f')}&lt;/style&gt;&lt;div id=&quot;_t&quot;&gt;&lt;/div&gt;&lt;img src=&quot;https://a6.emltrk.com/3CDC7925&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; /&gt;</bug_html>
+  <created_at type="datetime">2010-06-16T13:31:14Z</created_at>
+  <id type="integer">24</id>
+  <report_name>Newsletter</report_name>
+</report>
