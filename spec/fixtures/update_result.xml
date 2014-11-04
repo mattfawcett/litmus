@@ -1,0 +1,45 @@
+<result>
+	<check_state>ticked</check_state>
+	<error_at type="datetime" nil="true" />
+	<finished_at type="datetime">2010-12-18T22:44:51Z</finished_at>
+	<id type="integer">33524970</id>
+	<started_at type="datetime">2010-12-18T22:44:13Z</started_at>
+	<test_code>ol2003</test_code>
+	<state>complete</state>
+	<result_type>email</result_type>
+	<rendered_html_url />
+	<testing_application>
+		<average_time_to_process type="integer">165</average_time_to_process>
+		<business>true</business>
+		<result_type>email</result_type>
+		<supports_content_blocking>true</supports_content_blocking>
+		<desktop_client>true</desktop_client>
+		<status>0</status>
+		<platform_name>Windows</platform_name>
+		<platform_long_name>Microsoft Windows</platform_long_name>
+		<application_code>ol2003</application_code>
+		<application_long_name>Outlook 2003</application_long_name>
+	</testing_application>
+	<result_images type="array">
+		<result_image>
+			<image_type>full_off</image_type>
+			<full_image>s3.amazonaws.com/resultcaptures/path.png</full_image>
+			<thumbnail_image>s3.amazonaws.com/resultcaptures/path.png</thumbnail_image>
+		</result_image>
+		<result_image>
+			<image_type>full_on</image_type>
+			<full_image>s3.amazonaws.com/resultcaptures/path.png</full_image>
+			<thumbnail_image>s3.amazonaws.com/resultcaptures/path.png</thumbnail_image>
+		</result_image>
+		<result_image>
+			<image_type>window_off</image_type>
+			<full_image>s3.amazonaws.com/resultcaptures/path.png</full_image>
+			<thumbnail_image>s3.amazonaws.com/resultcaptures/path.png</thumbnail_image>
+		</result_image>
+		<result_image>
+			<image_type>window_on</image_type>
+			<full_image>s3.amazonaws.com/resultcaptures/path.png</full_image>
+			<thumbnail_image>s3.amazonaws.com/resultcaptures/path.png</thumbnail_image>
+		</result_image>
+	</result_images>
+</result>
