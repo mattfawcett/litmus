@@ -4,11 +4,21 @@ module Litmus
       super.reject{|test| test["service"] != 'email'}
     end
 
-    def self.create(email={}, name = nil, sandbox = false)
+    def self.create(email={}, name = nil, sandbox = false, application_codes=[])
       builder = Builder::XmlMarkup.new
       builder.instruct! :xml, :version=>"1.0"
       builder.test_set do |test_set|
-        test_set.use_defaults true
+        if application_codes
+          application_codes.each do |application_code|
+            test_set.tag!("applications", {type: "array"}) do |applications|
+              applications.application do |application|
+                application.code application_code
+              end
+            end
+          end
+        end
+
+        test_set.use_defaults application_codes.empty?
         test_set.save_defaults false
         test_set.name name if name
         test_set.sandbox true if sandbox
